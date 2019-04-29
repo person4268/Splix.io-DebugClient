@@ -29,8 +29,8 @@ gulp.task("reload", function() {
 });
 
 gulp.task("download", function() {
-  return download("http://splix.io/json/servers.json")
-    .pipe(gulp.dest("app"))
+//  return download("http://splix.io/json/servers.json")
+//    .pipe(gulp.dest("app"))
 });
 
 gulp.task("watch", function() {
